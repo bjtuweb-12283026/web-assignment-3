@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>login</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="bootstrap.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-wdith,initial-scale=1.0">
+</head>
+
+<body>
+<script type="text/javascript" src="jquery-1.11.0.min.js"></script> 
+<script type="text/javascript" src="bootstrap.js"></script>
+<div class="container">
+  <h1 class="page-header">WELCOME!</h1>
+  <div class="row">
+    <form action="login.php" method="post">
+      <div class="span7 login">
+        <h2 class="dl">用户登录</h2>
+        <span>账号</span>
+        <input type="text" id="pw1" size="60px" name="name">
+        <p><span>密码</span>
+          <input type="text" id="pw1" size="60px" name="psw">
+        </p>
+        <p>
+          <button  type="submit" class="btn btn-primary btn-large span3" >登录</button>
+        </p>
+      </div>
+    </form>
+    <form action="register.php" method="post">
+      <div class="span5 register">
+        <h2 class="zc">新用户注册</h2>
+        <span>账号</span>
+        <input type="text" id="name2" size="60px" name="newuser">
+        <p><span>密码</span>
+          <input type="text" id="pw2" size="60px" name="newpsw">
+        </p>
+        <p>
+          <button id="registered" type="submit" class="btn btn-primary btn-large span3" >注册</button>
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
